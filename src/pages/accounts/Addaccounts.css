@@ -1,0 +1,53 @@
+/* Accounts.css */
+
+:root {
+    --max-container-width: 400px;
+    --form-padding: 20px;
+    --label-margin-bottom: 10px;
+    --input-padding: 8px;
+    --input-margin-bottom: 15px;
+    --button-background: #4caf50;
+    --button-hover-background: #45a049;
+    --button-padding: 10px 15px;
+    --button-border-radius: 5px;
+    --button-color: white;
+    --button-cursor: pointer;
+  }
+  
+  .div {
+    max-width: var(--max-container-width);
+    margin: auto;
+    padding: var(--form-padding);
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .label {
+    margin-bottom: var(--label-margin-bottom);
+    font-weight: bold;
+  }
+  
+  .input,
+  select {
+    width: 100%;
+    padding: var(--input-padding);
+    margin-bottom: var(--input-margin-bottom);
+    box-sizing: border-box;
+  }
+  
+  .button {
+    background-color: var(--button-background);
+    color: var(--button-color);
+    padding: var(--button-padding);
+    border: none;
+    border-radius: var(--button-border-radius);
+    cursor: var(--button-cursor);
+  }
+  
+  .button:hover {
+    background-color: var(--button-hover-background);
+  }
+  

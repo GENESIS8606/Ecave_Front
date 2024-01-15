@@ -1,0 +1,47 @@
+/* Viewaccounts.css */
+
+.view-accounts {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .h1 {
+    color: #333;
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .tr, th, td {
+    border: 1px solid #000000;
+    padding: 12px;
+    text-align: left;
+  }
+  
+  .th {
+    background-color: #0a0101;
+  }
+  
+  /* Optional styling for links or buttons */
+  .a {
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  .button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
+  

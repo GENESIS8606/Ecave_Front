@@ -1,0 +1,41 @@
+/* Accounts.css */
+
+/* Styles for the container div */
+.div {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Styles for the navigation menu */
+  .nav {
+    margin-bottom: 20px;
+  }
+  
+ .ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  /* Styles for the links */
+  .a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .a:hover {
+    color: #007bff;
+  }
+  
+  /* Styles for the content area */
+  .h2 {
+    color: #007bff;
+  }
+  
